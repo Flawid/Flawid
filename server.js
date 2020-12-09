@@ -13,7 +13,7 @@
     
     app.get("/", function (req, res) {
         if (login == false) {
-            res.sendFile(path.join(__dirname + "/static/index.html"))
+            res.sendFile(path.join(__dirname + " xd /static/index.html"))
             console.log(__dirname)
         }
         else {
