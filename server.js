@@ -10,7 +10,7 @@
         { login: 'www', password: 'hhh', wiek: '11', uczen: 'on', gender: 'm' }
     ]
     
-  
+    
     app.get("/", function (req, res) {
         if (login == false) {
             res.sendFile(path.join(__dirname + "/static/index.html"))
