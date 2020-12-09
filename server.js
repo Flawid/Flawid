@@ -91,6 +91,7 @@
         console.log(__dirname)
         login = false;
         console.log(login)
+        jebac = false;
     })
     
     
